@@ -260,50 +260,50 @@ main .parrafo-home {
 
 #fantasy {
   fill: #e5e6e8;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 #fantasy:hover {
   fill: violet;
   transform: scale(1.1);
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 #mistery {
   fill: #e5e6e8;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 #mistery:hover {
   fill: grey;
   transform: scale(1.1);
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 #romance {
   fill: #e5e6e8;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 #romance:hover {
   fill: rgb(246, 137, 155);
   transform: scale(1.1);
-  transition: 0.5s;
+  transition: 0.4s;
 }
 #history {
   fill: #e5e6e8;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 #history:hover {
   fill: rgb(111, 55, 55);
   transform: scale(1.1);
-  transition: 0.5s;
+  transition: 0.4s;
 }
 #fear {
   fill: #e5e6e8;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 #fear:hover {
   fill: rgb(168, 29, 29);
   transform: scale(1.1);
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 /* -------------------------------------------------------------------------- */
