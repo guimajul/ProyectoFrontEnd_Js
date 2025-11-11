@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrito</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <p class="header__logo">
+        <a href="../index.html">Tienda Embark</a>
+      </p>
+      <nav class="header__nav">
+        <ul>
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <!-- lo anulo con # porque no tengo pagina aun, es solo provisorio -->
+            <a href="./contacto.html">Contacto</a>
+          </li>
+          <li>
+            <a href="./carrito.html" class="carrito-icono">
+              🛒 <span id="contador-carrito">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Carrito de compras</h1>
+      <section id="contenedor-carrito">
+        <!-- Productos del carrito -->
+      </section>
+      <div class="acciones-carrito" id="acciones-carrito">
+        <!-- Botones de eliminar y finalizar compra se agregan desde JS -->
+      </div>
+      <section id="resumen-carrito">
+        <!-- Aca ira el resumen del carrito -->
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Esta pagina la diseño Belu</p>
+      <p>&copy; 2025 Mi E-Commerce</p>
+      <nav>
+        <ul>
+          <li>Instagram</li>
+          <li>Tiktok</li>
+          <li>X</li>
+        </ul>
+      </nav>
+    </footer>
+    <script type="module" src="../js/carrito.js"></script>
+  </body>
+</html>

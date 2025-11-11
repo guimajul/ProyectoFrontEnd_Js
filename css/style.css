@@ -71,7 +71,7 @@ hr {
 
 .header__nav a {
   color: #e06d06;
-  text-decoration: line;
+  text-decoration: none;
   display: inline-block;
   padding: 1rem;
 }
@@ -191,12 +191,21 @@ main .parrafo-home {
   align-items: center;
   text-decoration: none;
 }
-.btn-info {
+.btn {
   background-color: #e06d06;
   transition: 0.5s ease;
+  color: #e5e6e8;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
 }
-.btn-info:hover {
-  transform: scale(1.5);
+.btn:hover {
+  transform: scale(1.1);
   box-shadow: 0 0px 12px #faff81;
   transition: 0.5s ease;
   cursor: pointer;
@@ -365,12 +374,26 @@ main .parrafo-home {
 }
 
 /* -------------------------------------------------------------------------- */
+/*                                Carrito                               */
+/* -------------------------------------------------------------------------- */
+
+.mensaje-carrito-vacio {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.acciones-carrito {
+  margin-top: 2rem;
+}
+
+/* -------------------------------------------------------------------------- */
 /*                                media queries                               */
 /* -------------------------------------------------------------------------- */
 @media (max-width: 768px) {
   .header {
     display: flex;
     flex-direction: column;
+    text-decoration: none;
   }
 
   .header__logo,

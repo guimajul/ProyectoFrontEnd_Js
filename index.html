@@ -15,7 +15,7 @@
   <body>
     <header class="header">
       <p class="header__logo">
-        <a href="./index.html">Tienda "El libro facil"</a>
+        <a href="./index.html">Tienda "El libro bueno"</a>
       </p>
       <nav class="header__nav">
         <ul>
@@ -25,6 +25,11 @@
           <li>
             <!-- lo anulo con # porque no tengo pagina aun, es solo provisorio -->
             <a href="./pages/contacto.html">Contacto</a>
+          </li>
+          <li>
+            <a href="./pages/carrito.html" class="carrito-icono">
+              🛒 <span id="contador-carrito">0</span>
+            </a>
           </li>
         </ul>
       </nav>
@@ -45,8 +50,8 @@
       <section class="productos-home">
         <h2>¡Mirá nuestros libros destacados!</h2>
 
-        <div class="contenedor-tarjetas">
-          <article class="tarjeta-producto">
+        <div id="contenedor-tarjetas" class="contenedor-tarjetas">
+          <!--<article class="tarjeta-producto">
             <img
               class="product-img"
               src="./img/Trilogia Misborn.jpg"
@@ -113,7 +118,7 @@
             <h4>Rick Riordan</h4>
             <p>Precio: $40</p>
             <div class="btn-info"><a href="#">VER</a></div>
-          </article>
+          </article>-->
         </div>
       </section>
       <hr />
@@ -181,5 +186,7 @@
         </ul>
       </nav>
     </footer>
+
+    <script type="module" src="./js/index.js"></script>
   </body>
 </html>
