@@ -9,7 +9,7 @@
   <body>
     <header class="header">
       <p class="header__logo">
-        <a href="../index.html">Tienda "El libro facil"</a>
+        <a href="../index.html">Tienda "El libro bueno"</a>
       </p>
       <nav class="header__nav">
         <ul>
@@ -17,7 +17,13 @@
             <a href="../index.html">Home</a>
           </li>
           <li>
+            <!-- lo anulo con # porque no tengo pagina aun, es solo provisorio -->
             <a href="./contacto.html">Contacto</a>
+          </li>
+          <li>
+            <a href="./carrito.html" class="carrito-icono">
+              🛒 <span id="contador-carrito">0</span>
+            </a>
           </li>
         </ul>
       </nav>
@@ -48,6 +54,7 @@
 
     <footer class="footer">
       <p>Creada por Guido Abulafia</p>
+      <p>&copy; 2025 Mi E-Commerce</p>
       <nav>
         <ul>
           <li>
@@ -58,5 +65,6 @@
         </ul>
       </nav>
     </footer>
+    <script type="module" src="../js/carrito.js"></script>
   </body>
 </html>

@@ -255,6 +255,8 @@ main .parrafo-home {
 .categoria {
   display: flex;
   flex-direction: column;
+  background: transparent;
+  color: white;
   align-items: center;
   gap: 1.5rem;
   padding: 2rem;
@@ -311,6 +313,16 @@ main .parrafo-home {
 }
 #fear:hover {
   fill: rgb(168, 29, 29);
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+#clear {
+  fill: #e5e6e8;
+  transition: 0.4s;
+}
+#clear:hover {
+  fill: rgb(34, 177, 206);
   transform: scale(1.1);
   transition: 0.4s;
 }
@@ -384,6 +396,13 @@ main .parrafo-home {
 }
 .acciones-carrito {
   margin-top: 2rem;
+}
+
+.contenedor-carrito {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 /* -------------------------------------------------------------------------- */
