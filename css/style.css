@@ -81,7 +81,7 @@ hr {
 
   padding: 2rem;
   color: #e06d06;
-
+  font-size: 2rem;
   /* hago flexibles al p y la nav */
   display: flex;
   justify-content: space-between;
@@ -98,7 +98,7 @@ hr {
 }
 
 .footer nav ul li a {
-  color: #e5e6e8;
+  color: #e06d06;
   text-decoration: none;
 }
 
@@ -127,6 +127,8 @@ main h1 {
 }
 
 main .parrafo-home {
+  border: 5px#161032 solid;
+  border-radius: 8px;
   font-size: 2rem;
   text-align: center;
   margin-bottom: 2rem;
