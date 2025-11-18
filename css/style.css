@@ -67,6 +67,12 @@ hr {
 .header__nav li {
   font-size: 2rem;
   font-weight: bold;
+  border-radius: 7px;
+  transition: background-color 0.5s;
+}
+
+.header__nav li:hover {
+  background-color: #2f2267;
 }
 
 .header__nav a {
