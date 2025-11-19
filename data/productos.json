@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "nombre": "Harry Potter: El prisionero de Azkaban",
+    "precio": "15",
+    "imagen": "img/HarryPotterPrisionero.jpg",
+    "categoria": "fantasy"
+  },
+  {
+    "id": "2",
+    "nombre": "Trilogia Mistborn Brandon Sanderson",
+    "precio": "80",
+    "imagen": "img/Trilogia Misborn.jpg",
+    "categoria": "fantasy"
+  },
+  {
+    "id": "3",
+    "nombre": "El señor de los anillos + El hobbit",
+    "precio": "20",
+    "imagen": "img/hobbitylotr.jpg",
+    "categoria": "fantasy"
+  },
+  {
+    "id": "4",
+    "nombre": "Trilogia del Archivo de las tormentas",
+    "precio": "20",
+    "imagen": "img/SandersonArchivo.jpg",
+    "categoria": "fantasy"
+  },
+  {
+    "id": "5",
+    "nombre": "Paquete Agatha Cristie",
+    "precio": "40",
+    "imagen": "img/AgathaCriestie.jpg",
+    "categoria": "mystery"
+  },
+  {
+    "id": "6",
+    "nombre": "Paquete Percy Jackson",
+    "precio": "40",
+    "imagen": "img/Percy Jackson.jpg",
+    "categoria": "fantasy"
+  },
+  {
+    "id": "7",
+    "nombre": "El Resplandor",
+    "precio": "60",
+    "imagen": "img/Resplandor.jpg",
+    "categoria": "fear"
+  },
+  {
+    "id": "8",
+    "nombre": "Colección de Sherlock Holmes",
+    "imagen": "img/ColeccionSherlockHolmes.jpg",
+    "precio": 100,
+    "categoria": "mystery"
+  },
+  {
+    "id": "9",
+    "nombre": "Orgullo y Prejuicio",
+    "imagen": "img/OrgulloPrejuicio.jpg",
+    "precio": 25,
+    "categoria": "romance"
+  }
+]
